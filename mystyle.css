@@ -3,3 +3,30 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+section, div{
+    padding: 25px 25px 50px;
+    overflow: auto;
+}
+.p{
+    color: black;
+    font-size: large;
+    text-align: left;
+    padding: 10px 16px 10px;
+}
+.header{
+    color:black;
+    background-color: rgb(251, 253, 253);
+    font-weight: bold;
+    font-size: x-large;
+    padding: 10px 16px 10px;
+
+}
+.override{
+    background-image: url("https://images.unsplash.com/photo-1570284745009-2910f06f268b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1193&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px rgb(58, 58, 58);
+}
