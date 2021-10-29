@@ -1,26 +1,48 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: linear-gradient( #cff1fc, #cffccf);
     background-repeat: no-repeat;
     background-size: 100%;
+    font-family: "Georgia", Times, serif;
+    line-height: 1.7;
 }
+/*Modification of the navigation bar*/
+.menu{
+    width: 100%;
+    padding: 0%;
+}
+.nav-tabs{
+    float:right;
+}
+.nav-link{
+    font-size: x-large;
+    color:#321a74;
+}
+.nav-link:active, .nav-item:hover{
+    color:#321a74;
+    background-color: #bce9f8;
+}
+/*Main text elements modification*/
 section, div{
     padding: 25px 25px 50px;
     overflow: auto;
 }
-.p{
+p{
     color: black;
     font-size: large;
     text-align: left;
-    padding: 10px 16px 10px;
+    padding: 15px 20px 10px;
 }
-.header{
+header{
     color:black;
     background-color: rgb(251, 253, 253);
     font-weight: bold;
     font-size: x-large;
     padding: 10px 16px 10px;
-
 }
+/*Banner jumbotron override*/
 .override{
     background-image: url("https://images.unsplash.com/photo-1570284745009-2910f06f268b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1193&q=80");
     background-size: cover;
@@ -29,4 +51,11 @@ section, div{
     color: white;
     text-align: center;
     text-shadow: 1px 1px rgb(58, 58, 58);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+/*Used for giving credit (Copyright)*/
+.copyrights{
+    text-align: inherit;
+    padding: 0px 0px 10px 0px;
+    top: 0px;
 }
