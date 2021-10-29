@@ -97,3 +97,28 @@ iframe{
     padding-top: 15px;
     max-width: 550px;
 }
+/*Used for the history page's pictures*/
+div.picture-frame {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+.container-caption {
+    text-align: center;
+    padding: 10px 15px;
+  }
+.image{
+    border: 1px solid black;
+    padding:10px;
+    box-shadow: 3px 5px rgb(173, 170, 170);
+    width: 100%;
+    height: auto;
+    display:flex;
+}
+.modified-container{
+    display:flex; 
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
