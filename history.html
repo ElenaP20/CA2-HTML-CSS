@@ -1,47 +1,44 @@
-<!--the town's history page-->
+<!--history page-->
 <!DOCTYPE html>
-
-<html lang = "en">
-    <head>
-        <meta charset = "utf-8">
-        <meta name= "viewport" content ="width=device-width, initial-scale = 1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </head>
-    
-    <body>
-        <link rel="stylesheet" type="text/css" href="mystyle.css">
-
-        <h1>The town's history</h1>
-
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="history.html">History page</a>
-            </li> 
-            <li class="nav-item">
-                <a class="nav-link" href="essential.html">Must visit places</a>
-            </li>
-        </ul>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>History of Sofia</title>
+  </head>
+  <body>
+    <!--Navigation menu using Bootstrap-->
+    <div class="menu">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="history.html">History page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="essential.html">Must visit places</a>
+        </li>
+      </ul>
+    </div>
+    <header>History</header>
+    <section>
+      <h4>Ancient history</h4>
+      <p> Sofia was founded in the 8th century BCE by a Thracian tribe <a href="https://en.wikipedia.org/wiki/Serdi">Serdi </a>who established a settlement there. Not long after that the settlement was conquered by the Romans in 29 BCE, who gave its name - Serdica. Serdica flourished under the reign of emperor Trajan and Constantine I the Great and was known as the <a href="https://en.wikipedia.org/wiki/Council_of_Serdica">Council of Serdica</a>, an important meeting site of Christian bishops. </p>
+      <p>Under the rule of emperor Justinian the Church of St. Sofia, that was raided by the Huns in 441, was restored and later gave the town its name. The Bulgarian <a href="https://en.wikipedia.org/wiki/Krum">khan Krum</a> from the first Bulgarian Empire integrated the town with the Bulgarian state and gave it the name Sredets in 809. Before the establishment of the second Bulgarian Empire in 1185, Sredets was under Byzantine rule for 167 years. </p>
+      <p>In 1382 the Bulgarian Empire fell to the Turks and wasn't liberated until 1878 by the Russian troops. Sredets was named Sofia after the church of St. Sophia in 1376, but the new name didn't fully replace the old one until the 16th century and in 1879 Sofia was apointed as the capital.</p>
+    </section>
         
-        <section class="p">
-            <header class ="header">History</header>
-            <p> Sofia was founded in the 8th century BCE by a Thracian tribe <a href="https://en.wikipedia.org/wiki/Serdi">Serdi </a>who established a settlement there. Not long after that the settlement was conquered by the Romans in 29 BCE, who gave its name - Serdica. 
-                Serdica flourished under the reign of emperor Trajan and Constantine I the Great and was known as the <a href="https://en.wikipedia.org/wiki/Council_of_Serdica">Council of Serdica</a>, an important meeting site of Christian bishops.</p>
-            <p>Under the rule of emperor Justinian the Church of St. Sofia, that was raided by the Huns in 441, was restored and later gave the town its name. The Bulgarian <a href="https://en.wikipedia.org/wiki/Krum">khan Krum</a> from the first Bulgarian Empire integrated the town with the Bulgarian state and gave it the name Sredets in 809.
-                Before the establishment of the second Bulgarian Empire in 1185, Sredets was under Byzantine rule for 167 years.</p>
-            <p>In 1382 the Bulgarian Empire fell to the Turks and wasn't liberated until 1878 by the Russian troops. Sredets was named Sofia after the church of St. Sophia in 1376, but the new name didn't fully replace the old one until the 16th century and in 1879 Sofia was apointed as the capital.</p>
-
-        </section>
-        
-         <section class="p">
+    <section>
+      <h4>Some historical monuments in Sofia</h4>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="column-sm">
+                    <div class="column">
                         <figure>
                             <img src="https://imgrabo.com/pics/guide/900x600/20141202132437_84731.jpeg" alt ="Russian Monument">
                             <figcaption>Russian monument in honour of the Russian troops that died in the campaign in 1878
@@ -52,7 +49,7 @@
                         </figure>
                     </div>
 
-                    <div class="column-sm">
+                    <div class="column">
                         <figure>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Rotunda_Sveti_Georgi%2C_Sofia.jpg/640px-Rotunda_Sveti_Georgi%2C_Sofia.jpg" alt="St.George">
                             <div class="text-left" style="padding:0%;">©
@@ -62,7 +59,7 @@
                             </div>
                         </figure>
                     </div>
-                    <div class="column-sm">
+                    <div class="column">
                         <figure>
                             <img src="http://www.sofia-guide.com/assets/banya_bashi_mosque_main.jpg" alt="Banya Bashi Mosque">
                             <div class="text-left" style="padding:0%;">©
@@ -71,7 +68,7 @@
                             </div>
                         </figure>
                     </div>
-                    <div class="column-sm">
+                    <div class="column">
                         <figure>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sofia_Synagogue_11c.jpg/636px-Sofia_Synagogue_11c.jpg" alt="Sofia Synagogue">
                             <div class="text-left" style="padding:0%;">©
